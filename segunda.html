@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segunda etapa</title>
+    <link rel="stylesheet" href="segunda.css">
+</head>
+
+<body>
+
+    <ul id="topMenu">
+        <a href="LD.html"><li>Inicio</li></a> 
+         <li>Sobre</li>
+         <li>Soluções</li>
+         <li>Planos e Preços</li>
+         <li>Contatos</li>
+   
+    <div> 
+        
+        <h1>Crie sua conta do LD</h1>
+        <input type="text" placeholder="Nome completo" id="nome">
+        <br><br>
+        <input type="text" placeholder="Usuario" name="usuario" id="usuario">
+        <br><br>
+        <input type="date" name="data" id="data">
+        <br><br>
+         <form class="genero">
+            <input type="radio" value="Masculino" name="sexo"> Masculino 
+            <input type="radio" value="Feminino" name="sexo"> Feminino 
+        </form>
+        <br><br>
+        <form name="cadastro">
+		<input type="text" placeholder="Adicionar CPF" name="cpf" \
+			pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" \
+			title="Digite um CPF no formato: xxx.xxx.xxx-xx">
+        <br><br>
+        <button type="submit">Finalizar</button>
+    </form>
+        <br><br>
+        
+    </div>
+    
+</body>
+
+<script>
+    window.alert("Após os cadastro sera divulgado automaticamente para várias plataformas")
+
+</script>
+</html>

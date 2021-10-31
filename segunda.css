@@ -1,0 +1,84 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #d5effd;
+    background-image: url("LD4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin-bottom: 2000px;
+    margin: 0;
+}
+
+#topMenu {
+    display: flex;
+    background-color: #194b66;
+    margin:0;
+    
+}
+
+
+#topMenu li {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    transition: 0.5s;
+    
+}
+
+
+#topMenu li:first-child{
+    margin-right: auto;
+    
+}
+#topMenu li:hover{
+    -webkit-transform: scale(1.5);
+    transform:scale(1.5)
+
+}
+
+div{
+    background-color: rgba(25,75,102, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: #d5effd;
+
+}
+input{
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+}
+
+button{
+    background-color: #d5effd;
+    border: none;
+    padding: 15px;
+    width: 320px;
+    border-radius: 25px;
+    color: #194b66;
+    font-size: 15px;
+
+
+}
+
+
+button:hover{
+    background-color: #9ed9f8;
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+    font-family: "sans-serif";
+}
